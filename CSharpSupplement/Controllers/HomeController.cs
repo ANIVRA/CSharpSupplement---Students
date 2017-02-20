@@ -38,6 +38,30 @@ namespace CSharpSupplement.Controllers
         {
             ViewBag.Message = "Variables";
 
+            int x, y, result;
+            x = ViewBag.X = 5;
+            y = ViewBag.Y = 10;
+            switch (oper8r)
+            {
+                case "+":
+                    result = x + y;
+                    break;
+                case "-":
+                    result = x - y;
+                    break;
+                case "*":
+                    result = x * y;
+                    break;
+                case "/":
+                    result = x / y;
+                    break;
+                default:
+                    result = 0;
+                    break;
+                 
+            }
+
+            ViewBag.Result = result;
 
             return View();
         }

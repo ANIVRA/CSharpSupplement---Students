@@ -19,13 +19,52 @@ namespace CSharpSupplement.Controllers
         {
             ViewBag.Message = "Plus Operator";
 
+            switch (unop)
+            {
+                case "+5":
+                    ViewBag.Result = +5;        // unary plus
+                    break;
+                case "5 + 5":
+                    ViewBag.Result = 5 + 5;     // addition
+                    break;
+                case "5 + .5":
+                    ViewBag.Result = 5 + .5;    // addition
+                    break;
+                case "''5'' + ''5''":
+                    ViewBag.Result = "5" + "5";  // string concatenation
+                    break;
+                case "5.0 + ''5''":
+                    ViewBag.Result = 5.0 + "5";  // string concatenation
+                                                 // note automatic conversion from double to string
+                    break;
+                default:
+                    ViewBag.Result = "";
+                    break;
+            }
             return View();
         }
 
         //++ operator
         public ActionResult PlusPlus(string incr)
         {
-
+            double x;
+            x = 1.5;
+            switch (incr)
+            {
+                case "++x":
+                    ViewBag.Result = ++x;
+                    break;
+                case "x++":
+                    ViewBag.Result = x++;
+                    break;
+                case "x":
+                    x++;
+                    ViewBag.Result = x;
+                    break;
+                default:
+                    ViewBag.Result = "";
+                    break;
+            }
             return View();
         }
 

@@ -172,6 +172,7 @@
     <Compile Include="Controllers\LoopsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\OperatorsController.cs" />
+    <Compile Include="Controllers\StringsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -241,6 +242,7 @@
     <Content Include="Views\Home\Operators.cshtml" />
     <Content Include="Views\Operators\UnaryPlus.cshtml" />
     <Content Include="Views\Operators\PlusPlus.cshtml" />
+    <Content Include="Views\Strings\SBExample.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -67,3 +67,7 @@ c:\temp\visual studio 2015\Projects\CSharpSupplement\CSharpSupplement\bin\Micros
 c:\temp\visual studio 2015\Projects\CSharpSupplement\CSharpSupplement\obj\Debug\CSharpSupplement.csprojResolveAssemblyReference.cache
 c:\temp\visual studio 2015\Projects\CSharpSupplement\CSharpSupplement\obj\Debug\CSharpSupplement.dll
 c:\temp\visual studio 2015\Projects\CSharpSupplement\CSharpSupplement\obj\Debug\CSharpSupplement.pdb
+C:\Temp\visual studio 2015\Projects\CSharpSupplement - Student\CSharpSupplement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Temp\visual studio 2015\Projects\CSharpSupplement - Student\CSharpSupplement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Temp\visual studio 2015\Projects\CSharpSupplement - Student\CSharpSupplement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Temp\visual studio 2015\Projects\CSharpSupplement - Student\CSharpSupplement\bin\roslyn\VBCSCompiler.exe
