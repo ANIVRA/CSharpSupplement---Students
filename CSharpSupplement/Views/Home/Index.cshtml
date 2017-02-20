@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "C# Fundamentals";
+}
+<h2>@ViewBag.Title.</h2>
+
+
+<h3>@ViewBag.Message</h3>
+
+<div class="row">
+    @*<div class="label col-xs-1 well" style="color:black; font-size:xx-large"></div>*@
+    @Html.ActionLink("Hello...", "HelloWorld", "Home", null, new { @class = "label col-xs-4 well", style = "color:black; font-size:xx-large" })
+
+</div>
+
+<div class="row">
+    @*<div class="label col-xs-1 well" style="color:black; font-size:xx-large"></div>*@
+    @Html.ActionLink("Variables", "Variables", "Home", null, new { @class = "label col-xs-4 well", style = "color:black; font-size:xx-large" })
+
+</div>
+
+<div class="row">
+    @*<div class="label col-xs-1 well" style="color:black; font-size:xx-large"></div>*@
+    @Html.ActionLink("Plus(+) Operator","UnaryPlus","Operators", null, new { @class= "label col-xs-4 well", style = "color:black; font-size:xx-large" })
+
+</div>
+
+<div class="row">
+    @*<div class="label col-xs-1 well" style="color:black; font-size:xx-large"></div>*@
+    @Html.ActionLink("Increment(++) Operator", "PlusPlus", "Operators", null, new { @class = "label col-xs-4 well", style = "color:black; font-size:xx-large" })
+</div>
+
+<div class="row">
+    @*<div class="label col-xs-2 well" style="color:black; font-size:xx-large">Result</div>*@
+    @Html.ActionLink("Minus(-) Operator", "Minus", "Operators", null, new { @class = "label col-xs-4 well", style = "color:black; font-size:xx-large" })
+</div>
+
+
+
+

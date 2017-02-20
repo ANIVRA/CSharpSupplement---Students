@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "C# Fundamentals";
+}
+<h2>@ViewBag.Title.</h2>
+
+
+<h3>@ViewBag.Message</h3>
+
+@*
+        x = 1.5;
+        ++x;
+        x++;
+        x;
+
+    Output
+        2.5
+        1.5
+        2.5
+*@
+
+<div class="row">
+    <div class="label col-xs-2 well" style="color:black; font-size:xx-large">x = 1.5;</div>
+</div>
+<form>
+    <div class="row">
+        <input type="submit" class="btn btn-default col-xs-1 well" style="color:black; font-size:xx-large" value="++x" name="incr" onsubmit="@Url.Action("PlusPlus","Operators")" />
+    </div>
+    <hr/>
+    <div class="row">
+        <div class="label col-xs-2 well" style="color:black; font-size:xx-large">x = 1.5;</div>
+    </div>
+    <div class="row">
+        <input type="submit" class="btn btn-default col-xs-2 well" style="color:black; font-size:xx-large" value="x++" name="incr" onsubmit="@Url.Action("PlusPlus","Operators")"/>
+    </div>
+    <div class="row">
+        <input type="submit" class="btn btn-default col-xs-2 well" style="color:black; font-size:xx-large" value="x" name="incr" onsubmit="@Url.Action("PlusPlus","Operators")" />
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-3 text-center" style="padding-top:15px; font-size:xx-large">
+            Result = @ViewBag.Result
+        </div>
+    </div>
+
+</form>
+
+
